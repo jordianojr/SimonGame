@@ -61,7 +61,7 @@ $(document).on("click", ".btn", function () {
     checkAnswer(userClickPattern.length - 1);
 })
 
-$(document).on("click", "h1", function () {
+$(document).on("click", "#level-title", function () {
     nextSequence();
     $("body").removeClass("game-over");    
 })
