@@ -67,9 +67,10 @@ $(document).on("keydown", function(){
         $("body").addClass("game-over");
         $("#level-title").text("Game Over, Press Any Key to Restart");  
         startOver();
-    }
+    }else{
     nextSequence();
     $("body").removeClass("game-over");
+    }
 })
 
 
