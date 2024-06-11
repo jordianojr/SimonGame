@@ -62,6 +62,12 @@ $(document).on("click", ".btn", function () {
 })
 
 $(document).on("keydown", function(){
+    if (level !== 0){
+        makeSound("wrong");
+        $("body").addClass("game-over");
+        $("#level-title").text("Game Over, Press Any Key to Restart");  
+        startOver();
+    }
     nextSequence();
     $("body").removeClass("game-over");
 })
