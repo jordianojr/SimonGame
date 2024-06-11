@@ -38,7 +38,7 @@ function startOver(){
 function makeSound(key){
     switch (key) {
         case key:
-            var key = new Audio("https://github.com/jordianojr/SimonGame/blob/main/" + key + ".mp3");
+            var key = new Audio("https://github.com/jordianojr/SimonGame/blob/main/" + key + ".mp3?raw=true");
             key.play();
         break;
 
