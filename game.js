@@ -38,7 +38,7 @@ function startOver(){
 function makeSound(key){
     switch (key) {
         case key:
-            var key = new Audio("https://github.com/jordianojr/SimonGame/blob/main/" + key + ".mp3key");
+            var key = new Audio("sounds/" + key + ".mp3");
             key.play();
         break;
 
@@ -72,5 +72,4 @@ $(document).on("keydown", function(){
     $("body").removeClass("game-over");
     }
 })
-
 
