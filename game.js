@@ -38,7 +38,7 @@ function startOver(){
 function makeSound(key){
     switch (key) {
         case key:
-            var key = new Audio("sounds/" + key + ".mp3");
+            var key = new Audio(key + ".mp3");
             key.play();
         break;
 
