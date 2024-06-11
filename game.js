@@ -61,6 +61,11 @@ $(document).on("click", ".btn", function () {
     checkAnswer(userClickPattern.length - 1);
 })
 
+$(document).on("click", "h1", function () {
+    nextSequence();
+    $("body").removeClass("game-over");    
+})
+
 $(document).on("keydown", function(){
     nextSequence();
     $("body").removeClass("game-over");
